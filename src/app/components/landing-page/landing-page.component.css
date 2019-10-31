@@ -1,4 +1,4 @@
-.container {
+.content {
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: (1fr)[2];
@@ -10,7 +10,7 @@
   }
   
   @media screen and (max-width: 60em) {
-    .container {
+    .content {
         -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr); 
     }
