@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router }  from '@angular/router';
+
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -14,7 +16,7 @@ export class LandingPageComponent implements OnInit {
   changePage(where:number) {
     switch(where) { 
       case 1: { 
-        //statements; 
+        this.router.navigate(['/page1']);
         break; 
       } 
       case 2: { 
