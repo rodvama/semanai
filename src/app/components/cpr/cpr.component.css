@@ -17,13 +17,12 @@ img {
     left:50%;
     top:75px;
 }
-
 .line {
     line-height: 70px;
 }
 .content{
     text-align: center;
-    background-color:#148f77;
+    background-color:#2874a6;
     height: 100%;
     width: 100%;
 }
