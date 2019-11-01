@@ -24,11 +24,11 @@ export class LandingPageComponent implements OnInit {
         break; 
       }
       case 3: { 
-        //statements; 
+        //statements 
         break; 
       } 
       case 4: { 
-        //statements;
+        this.router.navigate(['/page4']);
         break; 
       } 
       default: { 
