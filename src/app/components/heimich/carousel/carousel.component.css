@@ -38,6 +38,7 @@ img {
     font-size: 200%;
     color:black;
     border:black;
+    cursor: pointer;
 }
 .btn:hover {
     background-color:#489995;
