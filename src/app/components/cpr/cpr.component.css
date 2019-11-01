@@ -21,14 +21,40 @@ img {
     line-height: 70px;
 }
 .content{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color:#2874a6;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 .video{
-    margin: 120px;
+    margin-top: 10%;
     border: 20px groove #ddd;
     height: 50vh;
     width: 70vh;
+}
+
+@media screen and (max-width: 480px) {
+    /* img { display: block; } */
+    .list {
+        position: relative;
+        left: 0;
+        top: 10px;
+        font-size: 100%;
+    }
+    h1 { 
+        font-size: 250%;
+        align-self: center;
+    }
+    .line {
+        line-height: 200%;
+    }
+    img { 
+        width: auto;
+        height: 100%;
+    }
+    .picsum-img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
 }
