@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { CarouselComponent } from './components/heimich/carousel/carousel.component';
 import { CprComponent } from './components/cpr/cpr.component';
+import { FracturasComponent } from './components/fracturas/fracturas.component';
 const routes: Routes = [
   {
     path:'',
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path:'page2',
     component: CprComponent
+  },
+  {
+    path: 'page4',
+    component:FracturasComponent
   }
 ];
 
