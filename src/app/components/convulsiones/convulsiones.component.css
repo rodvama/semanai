@@ -14,21 +14,55 @@ img {
     font-size: 25px;
     color: white;
     position: absolute;
-    left:60vh;
+    left:50%;
     top:75px;
 }
 .line {
     line-height: 70px;
 }
 .content{
-    text-align: center;
-    background-color:#b03a2e;
-    height: 100%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:b03a2e;
+    height: 100vh;
+    width: 100vw;
 }
 .video{
-    margin: 120px;
+    margin-top: 10%;
     border: 20px groove #ddd;
     height: 50vh;
     width: 70vh;
+}
+.btn {
+    font-size: 200%;
+    color:black;
+    border:black;
+}
+.btn:hover {
+    background-color:#489995;
+}
+
+@media screen and (max-width: 480px) {
+    /* img { display: block; } */
+    .list {
+        position: relative;
+        left: 0;
+        top: 10px;
+        font-size: 100%;
+    }
+    h1 { 
+        font-size: 250%;
+        align-self: center;
+    }
+    .line {
+        line-height: 200%;
+    }
+    img { 
+        width: auto;
+        height: 100%;
+    }
+    .picsum-img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
 }

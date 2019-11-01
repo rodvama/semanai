@@ -33,7 +33,14 @@ img {
     height: 50vh;
     width: 70vh;
 }
-
+.btn {
+    font-size: 200%;
+    color:black;
+    border:black;
+}
+.btn:hover {
+    background-color:#489995;
+}
 @media screen and (max-width: 480px) {
     /* img { display: block; } */
     .list {
