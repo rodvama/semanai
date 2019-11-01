@@ -4,6 +4,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { CarouselComponent } from './components/heimich/carousel/carousel.component';
 import { CprComponent } from './components/cpr/cpr.component';
 import { FracturasComponent } from './components/fracturas/fracturas.component';
+import { ConvulsionesComponent } from './components/convulsiones/convulsiones.component';
 const routes: Routes = [
   {
     path:'',
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:'page2',
     component: CprComponent
+  },
+  {
+    path:'page3',
+    component :ConvulsionesComponent
   },
   {
     path: 'page4',

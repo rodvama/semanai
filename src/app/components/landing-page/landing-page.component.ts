@@ -24,7 +24,7 @@ export class LandingPageComponent implements OnInit {
         break; 
       }
       case 3: { 
-        //statements 
+        this.router.navigate(['/page3']); 
         break; 
       } 
       case 4: { 
